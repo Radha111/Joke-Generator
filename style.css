@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff6f00;
+    margin-bottom: 20px;
+}
+
+.joke-box {
+    min-height: 80px;
+    padding: 15px;
+    border: 2px dashed #ffcc80;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#joke {
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e65100;
+}
